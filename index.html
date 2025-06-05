@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meditation & Healing Music</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="background-container">
+    <div class="overlay"></div>
+  </div>
+  
+  <div class="volume-control">
+    <i class="fas fa-volume-up" id="volume-icon"></i>
+    <input type="range" id="volume-slider" min="0" max="100" value="70">
+  </div>
+  
+  <div class="container">
+    <div class="music-info">
+      <h1>Silence</h1>
+      <p>111 Hz - Clear All Negative Energy</p>
+      <p>Meditation & Positive Healing Music</p>
+    </div>
+    
+    <div class="player-controls">
+      <button id="playPauseBtn" class="play-pause-btn">
+        <i class="fas fa-play" id="play-icon"></i>
+      </button>
+    </div>
+  </div>
+
+  <!-- YouTube iframe player (hidden) -->
+  <div id="player"></div>
+
+  <script src="https://www.youtube.com/iframe_api"></script>
+  <script src="script.js"></script>
+</body>
+</html>
